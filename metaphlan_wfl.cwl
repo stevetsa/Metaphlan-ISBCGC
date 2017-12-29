@@ -1,6 +1,21 @@
-cwlVersion: v1.0
-class: Workflow
+#!/usr/bin/env cwl-runner
 
+class: workflow
+id: "metaphlan_wfl"
+label: "metaphlan"
+cwlVersion: v1.0
+doc: |
+    See the [Metaphlan](https://bitbucket.org/biobakery/metaphlan2) website for more information.
+
+dct:creator:
+  "@id": "NA"
+  foaf:name: Steve Tsang
+  foaf:mbox: "mailto:mylagimail2004@yahoo.com"
+
+
+#### Modified for Dockstore
+#class: workflow
+#cwlVersion: v1.0
 ############
 
 inputs:
