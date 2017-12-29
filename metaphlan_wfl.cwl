@@ -1,6 +1,6 @@
 #!/usr/bin/env cwl-runner
 
-class: workflow
+class: Workflow
 id: "metaphlan_wfl"
 label: "metaphlan"
 cwlVersion: v1.0
@@ -14,7 +14,7 @@ dct:creator:
 
 
 #### Modified for Dockstore
-#class: workflow
+#class: Workflow
 #cwlVersion: v1.0
 ############
 
